@@ -127,10 +127,13 @@ After downloading ROS1, unzip the IsaacSim compressed package to a folder, such 
 打开了Isaac Sim后，有初始化，open-file-选中对应A1_simulation中的文件，即可打开；左上角window-extension搜索isaacsim-ros1-bridge安装后启动(最好设置每次启动isaacsim自启动该拓展)。
 
 After opening Isaac Sim, initialize it. Open-file-select the corresponding file in A1_simulation to open it; search for isaacsim-ros1-bridge in the upper left corner of window-extension and start it after installation (it is best to set it to start automatically every time you start isaacsim).
-
+![初始化isaac-sim](images/ubuntu-launch.png)
+![ros1-bridge](images/ros_bridge.png)
 **5.**
 在isaac sim点击play键，创建第一个终端为ROS Master，你只需要在该终端输入指令roscore即可，在你的脚本文件夹创建第二个终端，输入python3 脚本名，比如python3 a1_joint_move_sin.py，即可运行
 
 Click the play button in isaac sim to create the first terminal as ROS Master. You only need to enter the command roscore in this terminal. Create a second terminal in your script folder and enter the python3 script name, such as python3 a1_joint_move_sin.py, to run it.
+
+![Ubntun22.04LTS下成功运行脚本](images/ubuntu_running_scripts.png)
 
 
